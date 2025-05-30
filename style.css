@@ -8,8 +8,8 @@ h1{
 h2{
     font-size: 40px;
 }
-.orange-color{
-    color:orange;
+.purple-color{
+    color:rgb(137, 23, 230);
 }
 .flexible-container{
     display:flex;
@@ -21,6 +21,8 @@ h2{
 }
 .half-width img{
     width: 80%;
+    height: 75%;
+    border-radius: 15%;
 }
 .link-button{
     text-decoration: none;
@@ -33,6 +35,7 @@ h2{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-top: 5%;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
@@ -43,9 +46,8 @@ h2{
     width:40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 40px gray;
+    padding-left: 2%;
+    box-shadow: 20px 30px 60px rgb(134, 225, 225);
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
@@ -53,13 +55,13 @@ h2{
     background-position:left;
 }
 #web-dev-experience{
-    border-left: 7px solid;
-    border-image:linear-gradient(blue,cyan);
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(183, 165, 173),cyan);
     border-image-slice: 1;
 }
 #full-stack-experience{
-    border-left:7px solid;
-    border-image:linear-gradient(purple,tomato);
+    border-left:5px solid;
+    border-image:linear-gradient(rgb(227, 217, 214),rgb(80, 71, 255));
     border-image-slice: 1;
 }
 footer p{
